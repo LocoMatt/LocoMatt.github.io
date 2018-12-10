@@ -1,0 +1,200 @@
+#svgMain {margin-left:auto; margin-right:auto; display:block;}
+
+body, html {
+
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #eecb38;
+}
+
+header{
+  background: white;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+nav a {
+  color: #121212;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+nav a:hover{
+  color: #1d1f1f;
+  text-decoration: underline;
+}
+
+.container{
+width: 95%;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.banner-text{
+  text-align: center;
+  padding: 10%;
+}
+
+.text-big{
+
+  font-family: 'Oswald', serif;
+  letter-spacing: 3px;
+  font-size: 60pt;
+ }
+
+.text-small{
+  font-family: sans-serif;
+  font-size: 20pt;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  margin-top: -15px;
+  word-spacing: 5px;
+}
+
+.info{
+  text-align: center;
+  padding: 5%;
+}
+
+.info-header{
+  font-weight: bold;
+  font-size: 20pt;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info-text{
+ font-weight: 200;
+ font-size: 13pt;
+ list-style: none;
+font-family: 'Montserrat', sans-serif;
+padding-bottom: auto;
+
+}
+
+
+.kontakt-top{
+
+  margin-top: 20px;
+  padding-top: 15%;
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 20pt;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.kontakt{
+  text-align: center;
+  padding-bottom: 35px;
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 15pt;
+  list-style: none;
+ font-family: 'Montserrat', sans-serif;
+ color: black;
+ line-height: 30px;
+ padding-bottom: 50px;
+ margin-bottom: 20px;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.99);
+  z-index: 2;
+  cursor: pointer;
+
+}
+
+.led{
+  position: absolute;
+  background-image: url(led.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  right: 100px;
+  width: 225px;
+  height: 225px;
+  background-size: 60%;
+}
+
+.led:hover{
+  position: absolute;
+  background-image: url(led-toggle.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  right: 100px;
+  width: 225px;
+  height: 225px;
+  background-size: 60%;
+
+}
+
+.logo{
+  position: absolute;
+  left: 100px;
+  top: 110px;
+}
+
+.pcb{
+  bottom: 0;
+	right: 0;
+	position: absolute;
+  background-image: url(123.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 373px;
+  height: 439px;
+  opacity: 0.45;
+}
+
+.osc{
+  bottom: 0;
+  left: 60px;
+  position: absolute;
+  background-image: url(oscyloskop.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  width: 512px;
+  height: 333px;
+  opacity: 0.45;
+
+}
