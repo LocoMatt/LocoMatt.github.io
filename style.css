@@ -198,3 +198,19 @@ padding-bottom: auto;
   opacity: 0.45;
 
 }
+
+
+.multi{
+
+  right: 300px;
+  top: 300px;
+  position: absolute;
+  background-image: url(multi.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  width: 400px;
+  height: 400px;
+  opacity: 0.45;
+}
