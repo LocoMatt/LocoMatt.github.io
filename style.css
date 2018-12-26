@@ -120,7 +120,8 @@ margin-left: auto;
   width: 140px;
   height: 140px;
   background-size: 100%;
-  transition: linear 0.6s;
+  transition: linear 0.4s;
+
 
 }
 
@@ -134,5 +135,9 @@ margin-left: auto;
   width: 140px;
   height: 140px;
   background-size: 100%;
-  transition:  linear 0.6s;
+
+  transition: linear 0.4s;
+
+
+
 }
