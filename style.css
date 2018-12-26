@@ -1,17 +1,9 @@
-#svgMain {margin-left:auto; margin-right:auto; display:block;}
 
 body, html {
-
-    height: 100%;
-    margin: 0;
-    font-family: Arial;
-
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #eecb38;
+   height: 100%;
+   margin: 0;
+    background-image: radial-gradient(circle, #eecb38, #efc831, #f1c42a, #f2c123, #f4bd1a, #f3b815, #f1b40e, #f0af07, #eba805, #e6a203, #e19b01, #dc9500);
 }
-
 header{
   background: white;
 }
@@ -52,16 +44,23 @@ nav a:hover{
   text-decoration: underline;
 }
 
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
 .container{
 width: 95%;
 font-family: 'Montserrat', sans-serif;
 }
 
-
-
 .banner-text{
+
   text-align: center;
-  padding: 10%;
+  padding: 60px;
 }
 
 .text-big{
@@ -81,8 +80,9 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .info{
-  text-align: center;
-  padding: 5%;
+width: 50%;
+margin-right: auto;
+margin-left: auto;
 }
 
 .info-header{
@@ -90,65 +90,23 @@ font-family: 'Montserrat', sans-serif;
   font-size: 20pt;
   letter-spacing: 2px;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: -10px;
 }
 
 .info-text{
+  margin-top: -15px;
+  text-align: justify;
  font-weight: 200;
  font-size: 13pt;
- list-style: none;
-font-family: 'Montserrat', sans-serif;
-padding-bottom: auto;
-
-}
-
-
-.kontakt-top{
-
-  margin-top: 20px;
-  padding-top: 15%;
-  margin-bottom: 3px;
-  font-weight: bold;
-  font-size: 20pt;
-  text-align: center;
-  letter-spacing: 2px;
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-}
-
-.kontakt{
-  text-align: center;
-  padding-bottom: 35px;
-  margin-top: 10px;
-  font-weight: 200;
-  font-size: 15pt;
-  list-style: none;
  font-family: 'Montserrat', sans-serif;
- color: black;
- line-height: 30px;
- padding-bottom: 50px;
- margin-bottom: 20px;
-}
-@keyframes kontakty {
-from {opacity: 0;}
-to {opacity: 1;}
+
 }
 
-#overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255,255,255,0.99);
-  z-index: 2;
-  cursor: pointer;
-  animation-name: kontakty;
-  animation-duration: 0.6s;
+.logo{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 
 .led{
@@ -156,10 +114,10 @@ to {opacity: 1;}
   background-image: url(led.png);
   background-repeat: no-repeat;
   background-position: top;
-  right: 100px;
-  width: 225px;
-  height: 225px;
-  background-size: 60%;
+  right: 10px;
+  width: 140px;
+    height: 140px;
+  background-size: 100%;
 }
 
 .led:hover{
@@ -167,62 +125,8 @@ to {opacity: 1;}
   background-image: url(led-toggle.png);
   background-repeat: no-repeat;
   background-position: top;
-  right: 100px;
-  width: 225px;
-  height: 225px;
-  background-size: 60%;
-
-}
-
-.logo{
-  position: absolute;
-  background-image: url(logo.png);
-  background-repeat: no-repeat;
-  left: 100px;
-  top: 65px;
-  background-size:100%;
-  width: 550px;
-  height: 550px;
-}
-
-.pcb{
-  bottom: 0;
-	right: 0;
-	position: absolute;
-  background-image: url(123.svg);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  width: 373px;
-  height: 439px;
-  opacity: 0.45;
-}
-
-.osc{
-  bottom: 0;
-  left: 60px;
-  position: absolute;
-  background-image: url(oscyloskop.png);
-  background-size: 55%;
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  width: 512px;
-  height: 333px;
-  opacity: 0.45;
-
-}
-
-
-.multi{
-
-  right: 300px;
-  top: 300px;
-  position: absolute;
-  background-image: url(multi.png);
-  background-size: 55%;
-  background-repeat: no-repeat;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-  width: 400px;
-  height: 400px;
-  opacity: 0.45;
+  right: 10px;
+  width: 140px;
+  height: 140px;
+  background-size: 100%;
 }

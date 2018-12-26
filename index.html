@@ -2,80 +2,47 @@
 <html lang="en" dir="ltr">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400|Oswald" rel="stylesheet">
 
-  <head>
+<head>
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title>Koło naukowe IO</title>
-  </head>
+</head>
 
 <body>
-
-<header>
-  <div class="container" >
-
-    <nav>
-      <ul>
-        <li><a>Nasze projekty</a></li>
-        <li><a onclick="on()">Kontakt</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+        <li><a href="https://www.facebook.com/Ko%C5%82o-naukowe-IO-500553340455703">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
 <div class="led"></div>
-<div class="multi"></div>
-<div class="logo"></div>
-
-<section>
 
   <div class="banner-text">
-  <div class="text-big">Koło naukowe IO</div>
-  <div class="text-small">Stwórzmy razem coś nowego!</div>
+    <div class="text-big">Koło naukowe IO</div>
+    <div class="text-small">Stwórzmy razem coś nowego!</div>
   </div>
 
-</section>
 
+  <div class="logo">
+    <img src="logo.png" alt="logo" width="100%" >
+  </div>
 
-<section>
   <div class="info">
-  <div class="info-header">O nas</div>
-  <div class="separator"> <svg id="svgMain" height="2" width="200"><line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(0,0,0);stroke-width:1" /></svg></div>
-  <div class="info-text">
-    <li>Jesteśmy gronem osób z pasją które chcą się rozwijac oraz osiągac nowe cele.</li>
-    <li>Lubimy jesc nutelle oraz kebaby z Krętej.</li>
-    <li>A jeżyki to najlepsze ciastka</li>
+    <div class="info-header">O nas</div>
+    <div> <svg id="svgMain" height="2" width="100%"><line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(0,0,0);stroke-width:2;stroke-dasharray: 2px 4px" /></svg></div>
+      <div class="info-text">
+        <p>Jesteśmy gronem osób z pasją które chcą się rozwijac oraz osiągac nowe cele. Codziennie rozwiązujemy nowe problemy oraz szukamy nowych rozwiąań.
+           Z chęcią dzielimy się własnym doświadczeniem oraz umiejętnościami, a jeżyki uważamy za najlepsze ciastka.</p>
+      </div>
   </div>
-</div>
-</section>
-
-<div class="pcb"></div>
-<div class="osc"></div>
 
 
 
 
-
-
-
-<div id="overlay" onclick="off()">
-<div class="kontakt-top">Kontakt</div>
-<div class="separator"> <svg id="svgMain" height="2" width="200"><line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,255,255);stroke-width:1" /></svg></div>
-<div class="kontakt" >
-<li>Opiekun koła: dr Agnieszka Choroszucho</li>
-<li>Facebook: www.Facebook.com/kolo_IO</li>
-<li>Siedziba koła: WE 210</li>
-</div>
-</div>
-
-<script>
-function on() {
-    document.getElementById("overlay").style.display = "block";
-}
-
-function off() {
-    document.getElementById("overlay").style.display = "none";
-}
-</script>
 
 </body>
 
