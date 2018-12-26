@@ -121,8 +121,6 @@ margin-left: auto;
   height: 140px;
   background-size: 100%;
   transition: linear 0.4s;
-
-
 }
 
 .led:hover{
@@ -135,9 +133,16 @@ margin-left: auto;
   width: 140px;
   height: 140px;
   background-size: 100%;
-
   transition: linear 0.4s;
+}
 
 
-
+@media only screen and (max-width: 768px) {
+.banner-text{width: 80%; padding-top:80px;}
+.info {width: 90%;}
+.info-header {font-size: 25pt;}
+.info-text {font-size: 18pt;}
+.led {opacity: 0;}
+.logo {width: 60%;}
+.container {height: 20%;}
 }
